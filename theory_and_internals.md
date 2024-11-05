@@ -6,6 +6,7 @@ material: https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
 - branches are just labels
 - walk through what changes internally for basic operations
 - blob, tree, commit, tag
+- ref vs symref
 
 TODO: actual list of commands to go through Two side-by-side terminals might
 make this easier for e.g. `tree`.
@@ -30,8 +31,8 @@ echo "line2" >> README.md # does not change object already stored
 git cat-file -p a29bdeb434d874c9b1d8969c40c42161b03fafdc
 git add README.md
 tree .git
-git cat-file -p c0d0fb45c382919737f8d0c20aaf57cf89b74af8
-git commit -m "title" -m "body"
+git cat-file -p c0d0fb45c382919737f8d0c20aaf57cf89b74af8 # not a diff, fully there
+git commit -m "title" -m "body" # records a commit based on the index
 tree .git
 git log
 cat .git/COMMIT_EDITMSG
