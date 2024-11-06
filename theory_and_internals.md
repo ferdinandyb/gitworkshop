@@ -100,4 +100,6 @@ git reflog
 git reflog HEAD
 git reflog feat/something
 git show feat/something@{2}
+git show @
+git show @{upstream}
 ```
