@@ -99,4 +99,5 @@ cat .git/logs/HEAD
 git reflog
 git reflog HEAD
 git reflog feat/something
+git show feat/something@{2}
 ```

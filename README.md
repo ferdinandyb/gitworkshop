@@ -7,9 +7,9 @@ and my [post on commits](https://bence.ferdinandy.com/gitcraft).
 
 ## Topics
 
-- why in CLI
+- why in CLI: universal, full api
 - [theory and internals](theory_and_internals.md)
-- https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection, specifying specific files, exploring a repository (e.g. git diff, git log)
+- [repository exploration](exploration.md)
 - why nice commits: blame, bisect (git add -p)
 - commit history handling: ammend, rebase, restore, reset
 - types of merges
