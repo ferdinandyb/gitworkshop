@@ -14,4 +14,4 @@ and my [post on commits](https://bence.ferdinandy.com/gitcraft).
 - types of merges
 - merge conflict resolving
 - branching strategies, worktrees
-- gitlab goodies
+- [gitlab](gitlab.md)
