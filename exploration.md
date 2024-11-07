@@ -2,9 +2,6 @@
 
 material: https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection
 
-
-, specifying specific files, exploring a repository (e.g. git diff, git log)
-
 ```
 git clone https://github.com/ferdinandyb/git-snapshot.git
 cd git-snapshot
@@ -36,4 +33,19 @@ git ll origin/v12~4..origin/v12
 git ll master..origin/v12 -- builtin/remote.c
 git diff master origin/v12 -- builtin/remote.c
 git show origin/v12:builtin/remote.c
+
+# when was git config _set_ introduced and why?
+
+git blame -- Documentation/git-config.txt
+git blame 95ea69c67b6~ -- Documentation/git-config.txt
+git show 00bbdde141f
+git log -Sset -- Documentation/git-config.txt
+git log --grep="^builtin/config:"
+git log --grep="^builtin/config:" --root 00bbdde141f
+
+# If the commits do not have proper information in them, these commands are _much_ less useful! See post on commits.
+
+# bisect
+cd /path/to/gitworkshop
+TODO: simple bisectable branch with python
 ```
