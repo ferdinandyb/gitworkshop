@@ -8,8 +8,6 @@ material: https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
 - blob, tree, commit, tag
 - ref vs symref
 
-TODO: actual list of commands to go through Two side-by-side terminals might
-make this easier for e.g. `tree`.
 
 Note: _commit_ hashes will be different for you!
 
