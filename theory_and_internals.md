@@ -90,6 +90,14 @@ git show refs/remotes/origin/master
 git remote set-head -a origin
 git show origin/HEAD # same objects, if remote had other things they are downloaded
 git switch master
+cd ..
+git init --bare upstream.git # the .git is just customery
+tree upstream.git
+cd myrepo
+git remote add upstream ../upstream.git
+git push upstream --all
+tree ../upstream.git
+tree .git/refs/remotes
 echo "line4" >> README.md
 git add README.md
 git commit -m "title4"
