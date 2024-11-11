@@ -27,6 +27,7 @@ def main(path, sep):
     lines = filereader(path)
     csv_validator(lines)
     print(f"element count: {csv_counter(lines, sep)}")
+    print(f"number of lines: {len(lines)}")
 
 
 if __name__ == "__main__":
