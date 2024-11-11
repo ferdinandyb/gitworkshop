@@ -1,4 +1,4 @@
-import sys
+import argparse
 
 
 def filereader(path):
@@ -14,10 +14,13 @@ def csv_counter(lines):
     return count
 
 
-def main():
-    lines = filereader(sys.argv[1])
+def main(path):
+    lines = filereader(path)
     print(f"element count: {csv_counter(lines)}")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("path")
+    args = parser.parse_args()
+    main(args.path)
