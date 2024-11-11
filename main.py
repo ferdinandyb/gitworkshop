@@ -7,10 +7,10 @@ def filereader(path):
     return None
 
 
-def csv_counter(lines):
+def csv_counter(lines, sep):
     count = 0
     for l in lines:
-        count += len(l.split(";"))
+        count += len(l.split(sep))
     return count
 
 
@@ -23,14 +23,15 @@ def csv_validator(lines):
         n = n_
 
 
-def main(path):
+def main(path, sep):
     lines = filereader(path)
     csv_validator(lines)
-    print(f"element count: {csv_counter(lines)}")
+    print(f"element count: {csv_counter(lines, sep)}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("path")
+    parser.add_argument("-s", "--separator", default=";")
     args = parser.parse_args()
-    main(args.path)
+    main(args.path, args.separator)
