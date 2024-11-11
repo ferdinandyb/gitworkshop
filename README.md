@@ -13,5 +13,5 @@ and my [post on commits](https://bence.ferdinandy.com/gitcraft).
 - commit history handling:git add -p, ammend, rebase, restore, reset
 - types of merges
 - merge conflict resolving
-- branching strategies, worktrees
+- branching strategies
 - [gitlab](gitlab.md)

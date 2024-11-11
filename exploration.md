@@ -45,7 +45,18 @@ git log --grep="^builtin/config:" --root 00bbdde141f
 
 # If the commits do not have proper information in them, these commands are _much_ less useful! See post on commits.
 
-# bisect
+# bisect and workspace
 cd /path/to/gitworkshop
-TODO: simple bisectable branch with python
+git branch
+# we want to switch to another branch without leaving this one
+git worktree add ../gitwswtree blame
+cd ../gitwswtree
+git checkout 9793
+python3 main.py test/test.csv # should say 9
+git checkout blame
+python3 main.py test/test.csv # should say 5
+# git bisect start <good> <bad>
+git bisect start HEAD 9793
+# git bisect good/bad
+git bisect reset
 ```
