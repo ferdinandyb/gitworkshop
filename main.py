@@ -4,7 +4,7 @@ import argparse
 def filereader(path):
     with open(path) as f:
         return f.readlines()
-    return None
+    return []
 
 
 def csv_counter(lines, sep):
