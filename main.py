@@ -14,8 +14,18 @@ def csv_counter(lines):
     return count
 
 
+def csv_validator(lines):
+    n = -1
+    for l in lines:
+        n_ = len(l.split(";"))
+        if n != -1:
+            assert n_ == n
+        n = n_
+
+
 def main(path):
     lines = filereader(path)
+    csv_validator(lines)
     print(f"element count: {csv_counter(lines)}")
 
 
