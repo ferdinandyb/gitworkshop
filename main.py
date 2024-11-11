@@ -7,9 +7,16 @@ def filereader(path):
     return None
 
 
+def csv_counter(lines):
+    count = 0
+    for l in lines:
+        count += len(l.split(";"))
+    return count
+
+
 def main():
     lines = filereader(sys.argv[1])
-    print(lines)
+    print(f"element count: {csv_counter(lines)}")
 
 
 if __name__ == "__main__":
