@@ -23,8 +23,12 @@ git switch -c merges/mcno_master2 merges/noconflictbase
 git log --oneline --graph merges/myfeature2 merges/mcno_master2
 git merge merges/myfeature2 --ff-only # can't do it
 git switch merges/myfeature2
+git log --oneline --graph merges/myfeature2 merges/mcno_master2
 git rebase merges/mcno_master2
 git log --oneline --graph merges/myfeature2 merges/mcno_master2
+git reset --hard ORIG_HEAD
+git log --oneline --graph merges/myfeature2 merges/mcno_master2
+git rebase merges/mcno_master2
 git switch merges/mcno_master2
 git merge merges/myfeature2 --ff-only
 git log --oneline --graph merges/myfeature2 merges/mcno_master2
