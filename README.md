@@ -11,8 +11,7 @@ and my [post on commits](https://bence.ferdinandy.com/gitcraft).
 - [theory and internals](theory_and_internals.md)
 - [repository exploration](exploration.md)
 - [moving patches](moving.md)
+- [merges and merges conflicts](merges.md)
 - [commit history manipulation](history.md)
-- types of merges
-- merge conflict resolving
 - branching strategies
 - [gitlab](gitlab.md)
