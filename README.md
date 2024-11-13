@@ -10,7 +10,8 @@ and my [post on commits](https://bence.ferdinandy.com/gitcraft).
 - why in CLI: universal, full api
 - [theory and internals](theory_and_internals.md)
 - [repository exploration](exploration.md)
-- commit history handling:git add -p, amend, rebase, restore, reset
+- [moving patches](moving.md)
+- [commit history manipulation](history.md)
 - types of merges
 - merge conflict resolving
 - branching strategies
