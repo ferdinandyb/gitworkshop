@@ -34,7 +34,7 @@ def main(path, sep, verbose):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("path")
-    parser.add_argument("-s", "--separator", default=",")
+    parser.add_argument("-s", "--separator", default=";")
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args()
     main(args.path, args.separator, args.verbose)
