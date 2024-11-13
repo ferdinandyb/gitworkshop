@@ -23,9 +23,10 @@ def csv_validator(lines):
         n = n_
 
 
-def main(path, sep, verbose):
+def main(path, sep, verbose, validate):
     lines = filereader(path)
-    csv_validator(lines)
+    if validate:
+        csv_validator(lines)
     print(f"element count: {csv_counter(lines, sep)}")
     if verbose:
         print(f"number of lines: {len(lines)}")
@@ -36,5 +37,6 @@ if __name__ == "__main__":
     parser.add_argument("path")
     parser.add_argument("-s", "--separator", default=",")
     parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument("-V", "--validate", action="store_true")
     args = parser.parse_args()
-    main(args.path, args.separator, args.verbose)
+    main(args.path, args.separator, args.verbose, args.validate)
