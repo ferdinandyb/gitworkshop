@@ -1,3 +1,7 @@
+"""
+Module docstring.
+"""
+
 import argparse
 
 
