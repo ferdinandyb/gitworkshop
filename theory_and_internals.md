@@ -88,6 +88,8 @@ git show refs/remotes/origin/master
 git remote set-head -a origin
 git show origin/HEAD # same objects, if remote had other things they are downloaded
 git switch master
+
+# a remote repository is nothing special
 cd ..
 git init --bare upstream.git # the .git is just customery
 tree upstream.git
@@ -96,16 +98,18 @@ git remote add upstream ../upstream.git
 git push upstream --all
 tree ../upstream.git
 tree .git/refs/remotes
+
+# additional references we can use
 echo "line4" >> README.md
 git add README.md
 git commit -m "title4"
 git log --oneline --graph --all
-git commit --amend
+git commit --amend # commit hash changes after edit
 cat .git/logs/HEAD
-git reflog
+git reflog # previous positions of HEAD can be accessed via reflog
 git reflog HEAD
 git reflog feat/something
-git show feat/something@{2}
-git show @
-git show @{upstream}
+git show master@{2} # position of HEAD two changes before
+git show @ # head
+git show @{upstream} # where you fetch from for this branch
 ```
