@@ -14,6 +14,8 @@ for ideas.
 - [repository exploration](exploration.md)
 - [moving patches](moving.md)
 - [merges and merges conflicts](merges.md)
-- [commit history manipulation](history.md)
+- commit history manipulation:
+    * [why and everything but interactive rebase](history_basics.md)
+    * [interactive rebase](history_rebase.md)
 - [branching strategies](branching.md)
 - [gitlab](gitlab.md)
