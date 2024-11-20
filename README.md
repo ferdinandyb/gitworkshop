@@ -15,5 +15,5 @@ for ideas.
 - [moving patches](moving.md)
 - [merges and merges conflicts](merges.md)
 - [commit history manipulation](history.md)
-- branching strategies
+- [branching strategies](branching.md)
 - [gitlab](gitlab.md)
