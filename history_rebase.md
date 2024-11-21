@@ -39,5 +39,9 @@ git add main.py
 git rebase --continue
 git range-diff HEAD~8..HEAD origin/history/mergeconflict~8..origin/history/mergeconflict
 
+# TODO edit
+# TODO squash
+# TODO commit --fixup
+# TODO add new commit with break
 
 ```
