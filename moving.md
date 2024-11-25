@@ -1,4 +1,6 @@
-Resources: https://git-send-email.io/
+Resources:
+- https://git-send-email.io/
+- https://git-am.io
 
 Various ways to move/send a specific commit to somebody/another branch.
 

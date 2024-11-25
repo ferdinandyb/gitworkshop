@@ -1,11 +1,11 @@
-# Some practical tips for gitlab
+# Tools
 
-## Settings
+## gitlab settings
 
 - Merge method -> fast-forward-merge (resolve conflicts yourself!)
 - Squash commits when merging -> Do not allow (do this yourself if needed!)
 
-## Tools
+## Tools for gitlab
 
 gitlab-cli: https://docs.gitlab.com/ee/editor_extensions/gitlab_cli/
 
@@ -27,3 +27,8 @@ Has experimental review feature :)
 ```
  GCLI_ENABLE_EXPERIMENTAL=yes gcli pulls -i 85 review
 ```
+
+## General
+
+- [lazygit](https://github.com/jesseduffield/lazygit)
+- your editor likely has cool stuff

@@ -19,4 +19,4 @@ for ideas.
     * [why and everything but interactive rebase](history_basics.md)
     * [interactive rebase](history_rebase.md)
 - [branching strategies](branching.md)
-- [gitlab](gitlab.md)
+- [tools](tools.md)
