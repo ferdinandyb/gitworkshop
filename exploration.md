@@ -64,6 +64,6 @@ git checkout blame
 python3 main.py test/test.csv # should say 5 (oh no, we're not backwards compat!)
 # git bisect start <good> <bad>
 git bisect start HEAD 9793
-# git bisect good/bad
+# git bisect good/bad -> 5a42e96
 git bisect reset
 ```
