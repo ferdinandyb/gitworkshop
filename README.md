@@ -1,6 +1,7 @@
 # Git workshop material
 
-This repo will be a workshop outline and some practice problems with git.
+This repo is a workshop outline I held for colleagues.
+
 
 See [my collection of materials](https://bence.ferdinandy.com/materials/git/),
 my [post on commits](https://bence.ferdinandy.com/gitcraft) and my
