@@ -15,7 +15,7 @@ git switch blame
 git switch -c fixblame/diff
 git show patch:fix.diff | git apply -3
 # the -3 is technically not needed here but could be in other cases
-diff <(git show patch:fixup.diff) <(git diff)
+diff <(git show patch:fix.diff) <(git diff)
 git add -u
 git commit -m "fix default sep from diff"
 git diff fixblame/solution

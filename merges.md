@@ -23,7 +23,7 @@ TODO: no conflict branch and conflict branch
 git switch -c merges/myfeature origin/fixedseparator
 git switch -c merges/mcno_master origin/merges/noconflictbase
 git ll --graph merges/mcno_master merges/myfeature
-git merge fixedseparator
+git merge merges/myfeature
 git log --oneline --graph merges/mcno_master merges/myfeature
 git cat-file -p HEAD # 2 parents, can be more
 
