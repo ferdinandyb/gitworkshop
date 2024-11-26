@@ -71,6 +71,7 @@ git add main.py
 git commit --fixup 5a42e96
 git ll
 git rebase -i HEAD~8 --autosquash # fixup commit was moved
+git config set rebase.autosquash true
 git mergetool # the parent commit is of course from the original position of the fixup
 git add main.py
 git rebase --continue
