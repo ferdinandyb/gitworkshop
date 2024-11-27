@@ -19,6 +19,8 @@ when companies choose to have a single central repository on a forge
 they've already contrained themselves considerably, and sourcehut and
 email and stuff)
 
+- [how to maintain git](https://github.com/git/git/blob/master/Documentation/howto/maintain-git.txt)
+
 - companies will have a central repository -> everybody pushing to master is bad
 - feature branches should be as short-lived as possible
 
