@@ -20,6 +20,7 @@ they've already contrained themselves considerably, and sourcehut and
 email and stuff)
 
 - [how to maintain git](https://github.com/git/git/blob/master/Documentation/howto/maintain-git.txt)
+- [Torvalds on github pull requests](https://github.com/torvalds/linux/pull/17)
 
 - companies will have a central repository -> everybody pushing to master is bad
 - feature branches should be as short-lived as possible
