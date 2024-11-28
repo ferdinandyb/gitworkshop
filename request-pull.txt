@@ -1,0 +1,39 @@
+The following changes since commit 88afe0df4d26eadf69e4680d24088140b56ac550:
+
+  csv: add validator (2024-11-11 14:00:14 +0100)
+
+are available in the Git repository at:
+
+  https://github.com/ferdinandyb/gitworkshop blame
+
+for you to fetch changes up to 987c01319b0eba257f60027b78d28e23ab8fefe5:
+
+  main: hide extra ouput behind -v (2024-11-11 14:00:14 +0100)
+
+----------------------------------------------------------------
+(from the branch description for blame local branch)
+
+branch description title
+
+Branch description body.  Ac nisi.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce mi.
+Vivamus enim velit, condimentum sit amet, laoreet quis, fermentum non,
+ipsum. Etiam quis felis. Curabitur tincidunt, sapien et luctus faucibus,
+nibh nisi commodo arcu, vitae cursus neque ante sed elit. Sed sit amet
+erat. Phasellus luctus cursus risus. Phasellus ac felis. Proin nec eros
+quis ipsum pellentesque congue. Curabitur et diam sed odio accumsan
+cursus. Pellentesque ultricies. Quisque aliquam. Sed nisi velit,
+consectetuer eget, dictum ac, molestie a, magna. Vestibulum ante ipsum
+primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Curabitur consequat leo et dui. Aenean ligula mi.
+
+----------------------------------------------------------------
+Bence Ferdinandy (4):
+      csv: make separator passable
+      csv: return empty list instead of None
+      main: print extra info
+      main: hide extra ouput behind -v
+
+ main.py | 16 ++++++++++------
+ 1 file changed, 10 insertions(+), 6 deletions(-)
