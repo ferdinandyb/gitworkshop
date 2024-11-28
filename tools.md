@@ -28,6 +28,19 @@ Has experimental review feature :)
  GCLI_ENABLE_EXPERIMENTAL=yes gcli pulls -i 85 review
 ```
 
+Commit/diff/patch:
+https://gitlab.com/gitlab-org/cli/-/commit/6854709bad9c327d35063d41153f48d740c46258.patch
+https://gitlab.com/gitlab-org/cli/-/commit/6854709bad9c327d35063d41153f48d740c46258.diff
+https://gitlab.com/gitlab-org/cli/-/commit/6854709bad9c327d35063d41153f48d740c46258
+
+## github
+
+Link to commit: https://github.com/ferdinandyb/git-snapshot/commit/3cbc6da26052aa7d8a41e1570ca69743250fdc9c
+Link to commit as diff: https://github.com/ferdinandyb/git-snapshot/commit/3cbc6da26052aa7d8a41e1570ca69743250fdc9c.diff
+Link to commit as patch: https://github.com/ferdinandyb/git-snapshot/commit/3cbc6da26052aa7d8a41e1570ca69743250fdc9c.patch
+
+
+
 ## General
 
 - [lazygit](https://github.com/jesseduffield/lazygit)
