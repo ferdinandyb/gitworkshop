@@ -22,6 +22,17 @@ email and stuff)
 - [how to maintain git](https://github.com/git/git/blob/master/Documentation/howto/maintain-git.txt)
 - [Torvalds on github pull requests](https://github.com/torvalds/linux/pull/17)
 
+```
+# how it looks like
+git cat-file -p origin/patch:request-pull.txt
+# how to make it
+git switch blame
+git branch --edit-description
+git request-pull HEAD~4 https://github.com/ferdinandyb/gitworkshop blame
+# notice the "shortlog" (commit titles) and diff-stat
+```
+
+
 - companies will have a central repository -> everybody pushing to master is bad
 - feature branches should be as short-lived as possible
 
